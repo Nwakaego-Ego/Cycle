@@ -8,7 +8,7 @@ const sidebarOption = ({ text, Icon }) => {
     <>
       <div className="sideBarOptionMain">
         <div>{IconComponent}</div>
-        <div>{text}</div>
+        <h2>{text}</h2>
       </div>
     </>
   );

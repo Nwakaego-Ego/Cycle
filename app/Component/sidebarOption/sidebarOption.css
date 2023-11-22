@@ -6,9 +6,17 @@
 
 .sideBarOptionMain:hover {
   background-color: #f3e6f5;
-  color: #da99ff;
+  color: var(--bg-color);
+  border-radius: 30px;
+  transition: color 100ms ease-out;
 }
 
 .sideBarOptionMain svg {
   margin: 15px;
+}
+
+.sideBarOptionMain > h2 {
+  font-weight: 800;
+  font-size: 16px;
+  /* margin-right: 20px; */
 }
