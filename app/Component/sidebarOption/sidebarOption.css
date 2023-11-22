@@ -1,0 +1,14 @@
+.sideBarOptionMain {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sideBarOptionMain:hover {
+  background-color: #f3e6f5;
+  color: #da99ff;
+}
+
+.sideBarOptionMain svg {
+  margin: 15px;
+}
