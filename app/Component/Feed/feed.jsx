@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Post from "../Post/post";
 import "./feed.css";
 
 const feed = () => {
@@ -46,35 +47,7 @@ const feed = () => {
             </div>
           </div>
         </div>
-        <div className="feed_content">
-          <div>feed</div>
-          <div>feed</div>
-          <div>feed</div>
-          <div>feed</div>
-          <div>feed</div>
-          <div>feed</div>
-          <div>feed</div>
-          <div>feed</div>
-          <div>feed</div>
-          <div>feed</div>
-          <div>feed</div>
-          <div>feed</div>
-          <div>feed</div>
-          <div>feed</div>
-          <div>feed</div>
-          <div>feed</div>
-          <div>feed</div>
-          <div>feed</div>
-          <div>feed</div>
-          <div>feed</div>
-          <div>feed</div>
-          <div>feed</div>
-          <div>feed</div>
-          <div>feed</div>
-          <div>feed</div>
-          <div>feed</div>
-          <div>feed</div>
-        </div>
+        <Post />
       </div>
     </>
   );
