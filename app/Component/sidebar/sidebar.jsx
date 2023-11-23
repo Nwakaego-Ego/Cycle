@@ -15,7 +15,7 @@ const Sidebar = () => {
   return (
     <>
       <div>
-        <FaUserFriends className="logo" />
+        <FaUserFriends className="circle-icon" />
         <SidebarOption active Icon={FaHome} text="Home" />
         <SidebarOption Icon={FaRegUser} text="Profile" />
         <SidebarOption Icon={FaRegBell} text="Notification" />
