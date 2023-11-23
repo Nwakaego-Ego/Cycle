@@ -4,8 +4,9 @@ import {
   FaUserFriends,
   FaHome,
   FaSearch,
-  FaNotificationIcon,
-  FaCommunity,
+  FaRegBell,
+  FaRegUser,
+  FaUsers,
 } from "react-icons/fa";
 import SidebarOption from "../sidebarOption/sidebarOption";
 
@@ -14,12 +15,13 @@ const Sidebar = () => {
     <>
       <div>
         <FaUserFriends />
-        <SidebarOption Icon={FaHome} text="Home" />
-        <SidebarOption Icon={FaHome} text="Profile" />
-        <SidebarOption Icon={FaHome} text="Notification" />
-        <SidebarOption Icon={FaHome} text="Community" />
-        <SidebarOption Icon={FaHome} text="Yard" />
+        <SidebarOption active Icon={FaHome} text="Home" />
+        <SidebarOption Icon={FaRegUser} text="Profile" />
+        <SidebarOption Icon={FaRegBell} text="Notification" />
+        <SidebarOption Icon={FaUserFriends} text="Community" />
+        <SidebarOption Icon={FaUsers} text="Yard" />
         <SidebarOption Icon={FaSearch} text="Explore" />
+        <button className="btn-gist w-full">Gist</button>
       </div>
     </>
   );

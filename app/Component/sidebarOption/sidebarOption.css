@@ -13,10 +13,26 @@
 
 .sideBarOptionMain svg {
   margin: 15px;
+  font-weight: 50px;
 }
 
 .sideBarOptionMain > h2 {
   font-weight: 800;
   font-size: 16px;
   /* margin-right: 20px; */
+}
+.sideBarOptionMain--active {
+  color: var(--bg-color);
+}
+.btn-gist {
+  background-color: var(--bg-color);
+  color: white;
+  font-weight: 900;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.btn-gist:hover {
+  background-color: #b451f4;
+  transition: all 100ms ease-out;
 }
