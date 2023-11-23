@@ -4,4 +4,9 @@
 
 :root {
   --bg-color: #bf30ee;
+  --secondary-color: #f3e6f5;
+}
+
+.main-container {
+  display: flex;
 }

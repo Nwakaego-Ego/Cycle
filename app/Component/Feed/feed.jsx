@@ -1,9 +1,9 @@
+import React from "react";
+
 const feed = () => {
   return (
     <>
-      <div>
-        <h1>CYCLE</h1>
-      </div>
+      <div>feed</div>
     </>
   );
 };

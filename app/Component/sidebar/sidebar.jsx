@@ -9,19 +9,20 @@ import {
   FaUsers,
 } from "react-icons/fa";
 import SidebarOption from "../sidebarOption/sidebarOption";
+import "./sidebar.css";
 
 const Sidebar = () => {
   return (
     <>
       <div>
-        <FaUserFriends />
+        <FaUserFriends className="logo" />
         <SidebarOption active Icon={FaHome} text="Home" />
         <SidebarOption Icon={FaRegUser} text="Profile" />
         <SidebarOption Icon={FaRegBell} text="Notification" />
-        <SidebarOption Icon={FaUserFriends} text="Community" />
+        <SidebarOption Icon={FaUserFriends} text="Circle" />
         <SidebarOption Icon={FaUsers} text="Yard" />
-        <SidebarOption Icon={FaSearch} text="Explore" />
-        <button className="btn-gist w-full">Gist</button>
+        <SidebarOption Icon={FaSearch} text="Entangle" />
+        <button className="btn-gist w-full">Buzz</button>
       </div>
     </>
   );
