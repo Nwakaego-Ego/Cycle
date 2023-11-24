@@ -3,6 +3,7 @@
   border-right: 1px solid var(--secondary-color);
   min-width: fit-content;
   overflow: scroll;
+  min-width: 250px;
 }
 
 .feed_header {
