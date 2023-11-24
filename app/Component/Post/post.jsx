@@ -10,11 +10,11 @@ export default function post() {
           <Image
             src="/meeee.jpeg"
             alt="img profile"
-            width={50}
-            height={50}
+            width={300}
+            height={200}
             layout="fit"
             objectFit="cover"
-            className=".post_profile_picture"
+            className="post_profile_picture"
           />
         </div>
         <div className="user_name">Kaego</div>
