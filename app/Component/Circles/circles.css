@@ -1,15 +1,3 @@
-/* .circles {
-  flex: 0.3;
-  padding: 20px;
-}
-
-.circle_picture {
-  width: 400px !important;
-  height: 200px !important;
-} */
-
-/* Assuming you are using SCSS with Tailwind CSS */
-
 .circles {
   flex: 0.3;
   padding: 20px;
@@ -18,7 +6,7 @@
 .circles_heading {
   font-size: 24px;
   font-weight: bold;
-  color: #bf30ee; /* Team color */
+  color: rgba(0, 0, 0, 0.342);
   margin-bottom: 20px;
 }
 
@@ -30,7 +18,8 @@
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 10px;
-  background-color: #f3e6f5; /* Team color */
+  /* background-color: #f3e6f5;  */
+  background-color: #f7f9f9;
 }
 
 .circle_picture {
@@ -43,7 +32,7 @@
 .circle_name {
   font-size: 16px;
   font-weight: bold;
-  color: #bf30ee; /* Team color */
+  color: #85888a;
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -52,6 +41,7 @@
 
 .circle_name:hover {
   text-decoration: underline;
-  color: #ffffff; /* White color for better visibility on hover */
-  background-color: #bf30ee; /* Team color on hover */
+  color: #ffffff;
+  /* background-color: #bf30ee;  */
+  background-color: #eff3f4;
 }
