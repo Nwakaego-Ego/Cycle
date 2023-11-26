@@ -2,26 +2,27 @@
   background-color: #eff1f1;
   border: 1px solid transparent;
   padding: 10px;
-  margin: 10px;
+  /* margin: 10px; */
+
   transition: background-color 0.3s;
   border-radius: 8px;
 }
-
-/* .invite-picture-container {
-  margin-bottom: 10px;
-
+.invite_picture_container {
   width: 50px;
   height: 50px;
   border-radius: 50%;
 
-  border: 1px solid #fff;
-} */
+  border: 2px solid #fff;
+  text-align: center;
+}
 
 .invite_picture {
-  width: 100%;
-  height: auto;
-  border-radius: 75%; /* Adjust this value for the desired level of rounding */
-  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  align-items: center;
+  /* margin-bottom: 8px; */
 }
 
 h1 {
@@ -31,22 +32,28 @@ h1 {
   margin-bottom: 8px;
   color: rgb(37, 35, 35) !important;
 }
-
+.invite_flex_container {
+  margin-bottom: 8px;
+}
 .invite-flex-container:hover {
   background-color: #ddd;
 }
 
 .invite_profile {
   font-size: 15px;
-  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 13px;
+  font-weight: 600;
 }
 
 .invite_btn {
   background-color: rgb(37, 35, 35);
   color: white;
-  padding: 5px 10px;
+  padding: 8px 13px;
   border-radius: 5px;
   transition: background-color 0.3s, color 0.3s, border-radius 0.3s;
+  margin-left: 50px;
+  /* margin-bottom: 8px; */
 }
 
 .invite_btn:hover {
