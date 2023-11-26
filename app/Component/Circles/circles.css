@@ -18,8 +18,8 @@
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 10px;
-  /* background-color: #f3e6f5;  */
-  background-color: #f7f9f9;
+
+  background-color: #eff1f1;
 }
 
 .circle_picture {
@@ -32,7 +32,9 @@
 .circle_name {
   font-size: 16px;
   font-weight: bold;
-  color: #85888a;
+  /* color: #85888a; */
+  color: rgb(37, 35, 35);
+
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -42,6 +44,5 @@
 .circle_name:hover {
   text-decoration: underline;
   color: #ffffff;
-  /* background-color: #bf30ee;  */
   background-color: #eff3f4;
 }

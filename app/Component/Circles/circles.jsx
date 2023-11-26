@@ -4,59 +4,45 @@ import Request from "../Invite/invite";
 import "./circles.css";
 
 const Circles = () => {
+  const circles = [
+    {
+      image: "/book.svg",
+      circle_name: "Book Club",
+    },
+    {
+      image: "/book.svg",
+      circle_name: "Book Club",
+    },
+    {
+      image: "/book.svg",
+      circle_name: "Book Club",
+    },
+    {
+      image: "/book.svg",
+      circle_name: "Book Club",
+    },
+  ];
+
   return (
     <div className="circles">
       <h1 className="circles_heading">Circles</h1>
-      <div className="circles_container">
-        <div className="circles_profile_container flex items-center hover:bg-purple-300 transition duration-300 ease-in-out">
-          <Image
-            src="/book.svg"
-            alt="img profile"
-            width={50}
-            height={50}
-            layout="fit"
-            objectFit="cover"
-            className="circle_picture"
-          />
-          <button className="circle_name">Book Club</button>
-        </div>
-        <div className="circles_profile_container flex items-center hover:bg-purple-300 transition duration-300 ease-in-out">
-          <Image
-            src="/gist.svg"
-            alt="img profile"
-            width={50}
-            height={50}
-            layout="fit"
-            objectFit="cover"
-            className="circle_picture"
-          />
-          <button className="circle_name">What in the World</button>
-        </div>
-        <div className="circles_profile_container flex items-center hover:bg-purple-300 transition duration-300 ease-in-out">
-          <Image
-            src="/coffee.svg"
-            alt="img profile"
-            width={50}
-            height={50}
-            layout="fit"
-            objectFit="cover"
-            className="circle_picture"
-          />
-          <button className="circle_name">Coffee Chat</button>
-        </div>
-        <div className="circles_profile_container flex items-center hover:bg-purple-300 transition duration-300 ease-in-out">
-          <Image
-            src="/pizza.svg"
-            alt="img profile"
-            width={50}
-            height={50}
-            layout="fit"
-            objectFit="cover"
-            className="circle_picture"
-          />
-          <button className="circle_name">Lunch Hangout</button>
-        </div>
-      </div>
+
+      {circles.map((circle) => {
+        return (
+          <div key={circle.id}>
+            <div className="circles_container">
+              <div className="circles_profile_container flex items-center hover:bg-purple-300 transition duration-300 ease-in-out">
+                <img
+                  src={circle.image}
+                  alt={circle.circle_name}
+                  className="circle_picture"
+                />
+                <div className="circle_name">{circle.circle_name}</div>
+              </div>
+            </div>
+          </div>
+        );
+      })}
       <Request />
     </div>
   );
