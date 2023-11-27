@@ -6,19 +6,19 @@ import "./circles.css";
 const Circles = () => {
   const circles = [
     {
-      image: "/book.svg",
+      image: "/meeee.jpeg",
       circle_name: "Book Club",
     },
     {
-      image: "/book.svg",
+      image: "/meeee.jpeg",
       circle_name: "Book Club",
     },
     {
-      image: "/book.svg",
+      image: "/meeee.jpeg",
       circle_name: "Book Club",
     },
     {
-      image: "/book.svg",
+      image: "/meeee.jpeg",
       circle_name: "Book Club",
     },
   ];

@@ -4,6 +4,12 @@ import Post from "../Post/post";
 import "./feed.css";
 
 const feed = () => {
+  const feed = [
+    {
+      buzz: "Computer science is the study of information and how you represent it and process it Computational thinking is the application of idea from computer science to problems of interest to you , be it humanitarian or hospitality. ",
+      image: "/meeee.jpeg",
+    },
+  ];
   return (
     <>
       <div className="feed">

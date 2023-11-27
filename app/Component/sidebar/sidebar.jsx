@@ -26,7 +26,7 @@ const Sidebar = () => {
         <SidebarOption Icon={FaSearch} text="Entangle" />
         <SidebarOption Icon={FaCog} text="Setting" />
         <SidebarOption Icon={FaRegHandshake} text="Invite" />
-        <button className="btn-gist w-full">Buzz</button>
+        {/* <button className="btn-gist w-full">Buzz</button> */}
       </div>
     </>
   );
