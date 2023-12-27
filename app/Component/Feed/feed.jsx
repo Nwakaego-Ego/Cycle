@@ -4,12 +4,12 @@ import Post from "../Post/post";
 import "./feed.css";
 
 const feed = () => {
-  const feed = [
-    {
-      buzz: "Computer science is the study of information and how you represent it and process it Computational thinking is the application of idea from computer science to problems of interest to you , be it humanitarian or hospitality. ",
-      image: "/meeee.jpeg",
-    },
-  ];
+  // const feeds = [
+  //   {
+  //     buzz: "Computer science is the study of information and how you represent it and process it Computational thinking is the application of idea from computer science to problems of interest to you , be it humanitarian or hospitality. ",
+  //     image: "/meeee.jpeg",
+  //   },
+  // ];
   return (
     <>
       <div className="feed">
@@ -25,7 +25,7 @@ const feed = () => {
                 objectFit="cover"
                 className="profile_picture"
               />
-              <div className="profile_name">Kaego</div>
+              <div className="profile_name">Kaegoooo</div>
             </div>
             <div className="profile_container">
               <Image
@@ -37,7 +37,7 @@ const feed = () => {
                 objectFit="cover"
                 className="profile_picture"
               />
-              <div className="profile_name">Kaego</div>
+              <div className="profile_name">Kaegoooo</div>
             </div>
             <div className="profile_container">
               <Image

@@ -4,7 +4,7 @@ import Circles from "./Component/Circles/circles";
 
 export default function Home() {
   return (
-    <main className="main-container">
+    <main id="root">
       <Sidebar />
       <Feed />
       <Circles />
